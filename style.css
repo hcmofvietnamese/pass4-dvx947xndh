@@ -12,6 +12,9 @@ body {
   margin: 0 1rem 0 0;
   font-size: 1rem;
 }
+#rand-code {
+    font-size: 0.6rem;
+  }
 @media (max-width: 600px) {
   .container {
     border: 0.5rem solid purple;
