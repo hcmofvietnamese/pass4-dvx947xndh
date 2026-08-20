@@ -13,7 +13,7 @@ body {
   font-size: 1rem;
 }
 #rand-code {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 @media (max-width: 600px) {
   .container {
