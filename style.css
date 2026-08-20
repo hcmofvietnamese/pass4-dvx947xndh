@@ -9,6 +9,8 @@ body {
 #rrr {
   border: 1px solid black;
   margin: 0 1rem 0 0;
+  font-size: 1.5rem;
+  padding: 0.1rem;
 }
 @media (max-width: 600px) {
   .container {
