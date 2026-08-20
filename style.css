@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#rrr {
+  border: 1px solid black;
+  margin: 0 1rem 0 0;
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  .container {
+    border: 0.5rem solid purple;
+    width: 99vw;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  input[type="number"] {
+    width: 6rem;
+    margin: 0 1rem 0 2rem;
+  }
+  input[type="checkbox"] {
+    display: inline;
+  }
+  .form > * {
+    font-size: 1.5rem;
+  }
+  label {
+    margin: 0 2rem 0 0;
+  }
+  label:last-of-type {
+    margin: 0;
+  }
+  button {
+    margin: 0 2rem 0 2rem;
+  }
+  #rand-code {
+    width: 97%;
+    height: 7rem;
+    border: 1px solid black;
+  }
+  #nut-load {
+    font-size: 1.5rem;
+    color: blue;
+    margin: 0.7rem;
+  }
+}
+@media (min-width: 601px) {
+  .container {
+    border: 0.4rem solid purple;
+    width: 60rem;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  input[type="number"] {
+    width: 6rem;
+    margin: 0 1rem 0 2rem;
+  }
+  input[type="checkbox"] {
+    display: inline;
+  }
+  .form > * {
+    font-size: 1.5rem;
+  }
+  label {
+    margin: 0 2rem 0 0;
+  }
+  label:last-of-type {
+    margin: 0;
+  }
+  button {
+    margin: 0 2rem 0 2rem;
+  }
+  #rand-code {
+    width: 100%;
+    height: 5rem;
+    border: 1px solid black;
+  }
+  #nut-load {
+    font-size: 1.5rem;
+    color: blue;
+    margin: 0.7rem;
+  }
+}
