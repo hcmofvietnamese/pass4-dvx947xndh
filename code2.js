@@ -31,8 +31,8 @@ nutLoad.addEventListener("click", (e) => {
   const arrSelectValue = Array.from(selectedCheckBox).map((x) => x.value);
   const soLuong = soLuongKT.value;
 
-  if (soLuong > 120 || soLuong < 0) {
-    alert("random code không quá 120 ký tự !! 😥");
+  if (soLuong > 200 || soLuong < 0) {
+    alert("random code không quá 200 ký tự !! 😥");
   } else {
     let chuoichung = "";
     arrSelectValue.forEach((x) => {
